@@ -1,5 +1,10 @@
 "use client";
 
+import axios from "axios";
+import PostOwnner from "@/components/PostOwnner";
+import { PostOwnerProps } from "@/libs/types";
+import {useState,useEffect} from "react";
+
 export default function Home() {
   return (
     <div
@@ -11,11 +16,11 @@ export default function Home() {
         style={{ maxWidth: "700px", backgroundColor: "#242526" }}
         className="mx-auto p-3 rounded rounded-3 shadow-sm"
       >
-        {/* Post Owner Example*/}
+        {/*PostOwnner*/}
         <div className="vstack gap-3">
           <div className="d-flex align-items-center gap-3">
             <img
-              src="/profileImages/handsome.jpg"
+              src="/profileImages/"
               width="48"
               height="48"
               className="rounded-circle"

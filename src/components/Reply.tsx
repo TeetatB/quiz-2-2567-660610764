@@ -1,5 +1,9 @@
 "use client";
 
-export default function Reply({ userImagePath, username, replyText, likeNum }) {
-  return <div>your code for Reply component ...</div>;
+import { ReplyProps } from "@/libs/types";
+
+export default function Reply({ userImagePath, username, replyText, likeNum }:ReplyProps) {
+  return <div>
+    
+  </div>;
 }
