@@ -16,11 +16,11 @@ export default function Home() {
         style={{ maxWidth: "700px", backgroundColor: "#242526" }}
         className="mx-auto p-3 rounded rounded-3 shadow-sm"
       >
-        {/*PostOwnner*/}
+        {PostOwnner}
         <div className="vstack gap-3">
           <div className="d-flex align-items-center gap-3">
             <img
-              src="/profileImages/"
+              src="/profileImages/handsome.jpg"
               width="48"
               height="48"
               className="rounded-circle"
