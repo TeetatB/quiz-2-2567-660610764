@@ -1,6 +1,6 @@
 "use client";
 
-import axios from "axios";
+
 import PostOwnner from "@/components/PostOwnner";
 import { PostOwnerProps } from "@/libs/types";
 import {useState,useEffect} from "react";
